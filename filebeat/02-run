@@ -1,0 +1,4 @@
+docker run --name filebeat -d  \
+        -v `pwd`/config/filebeat.yml:/usr/share/filebeat/filebeat.yml \
+        -v `pwd`/logs:/home/yedeguo/logs \
+	filebeat 

@@ -1,0 +1,23 @@
+filebeat.prospectors:
+- paths:
+    - /home/yedeguo/logs/order.log
+  enabled: true
+  multiline:
+      pattern: ^\d{4}
+      negate: true
+      match: after
+  fields:
+    doc_type: order
+- paths:
+    - /home/yedeguo/logs/customer.log
+  enabled: true
+  multiline:
+      pattern: ^\d{4}
+      negate: true
+      match: after
+  fields:
+    doc_type: customer
+output.logstash: # 输出地址
+  hosts: ["172.16.85.50:10334"]
+#output.elasticsearch: # 输出地址
+#  hosts: ["172.16.85.50:10333"]

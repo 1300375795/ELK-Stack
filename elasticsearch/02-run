@@ -1,0 +1,5 @@
+docker run -d  \
+	--name elk-elasticsearch \
+	-p 10333:9200 \
+	-p 10433:9300 \
+	elk-elasticsearch

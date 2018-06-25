@@ -1,0 +1,5 @@
+docker run -d --name elk-kibana \
+	-p 10335:5601 \
+	--link elk-elasticsearch \
+	-e ELASTICSEARCH_URL=http://172.16.85.50:10333 \
+	elk-kibana 

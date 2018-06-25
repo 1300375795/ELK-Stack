@@ -1,0 +1,14 @@
+2017-12-26 10:05:56,476 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:07:23,529 INFO WarehouseController:271 - findWarehouseList,json{"formJSON":{"userId":"885769620971720708"},"requestParameterMap":{},"requestAttrMap":{"name":"asdf","user":"8857696","ip":"183.63.112.1","source":"asdfa","customerId":"885768861337128965","IMEI":"863267033748196","sessionId":"xm1cile2bcmb15wtqmjno7tgz","sfUSCSsadDDD":"asdf/10069&ADR&1080&1920&OPPO R9s Plus&Android6.0.1","URI":"/warehouse-service/appWarehouse/findByCustomerId.apec","encryptType":"2","requestStartTime":3450671468321405}}
+2017-12-26 10:07:23,650 INFO WarehouseServiceImpl:325 - warehouse list:8,warehouse str:[{"addressDetail":"nnnnnnnn","areaId":"210624","areaNa":""}]
+2017-12-26 10:10:56,477 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:15:56,477 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:20:56,478 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:05:56,476 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:07:23,529 INFO WarehouseController:271 - findWarehouseList,json{"formJSON":{"userId":"885769620971720708"}}]
+2017-12-26 10:10:56,477 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:15:56,477 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:20:56,478 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:20:56,478 INFO ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2017-12-26 10:07:23,529 INFO WarehouseController:271 - findWarehouseList,json{"formJSON":{"userId":"885769620971720708"}}]
+2017-12-26 10:07:23,529 INFO WarehouseController:271 - findWarehouseList,json{"formJSON":{"userId":"885769620971720708"}}]

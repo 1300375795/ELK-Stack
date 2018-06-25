@@ -1,0 +1,7 @@
+docker run  --rm -it \
+	--name elk-logstash \
+ 	-d  \
+	-p 10334:10334 \
+	-v `pwd`/config/logstash.conf:/usr/share/logstash/pipeline/logstash.conf  \
+        -v `pwd`/logs:/home/yedeguo/logs \
+	elk-logstash
